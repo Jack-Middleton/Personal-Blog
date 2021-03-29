@@ -25,3 +25,4 @@ class Post(models.Model):  # class is the keyword for defining a class
         return self.title
 
     # everything above is the blueprint for what happens within the class for objects later
+    # testing git
