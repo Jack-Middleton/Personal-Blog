@@ -129,5 +129,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 SETTINGS_PATH = os.path.normpath(os.path.dirname(__file__))
 TEMPLATE_DIRS = (
-    os.path.join(SETTINGS_PATH, 'templates'),
+    os.path.abspath(SETTINGS_PATH),
 )
