@@ -13,7 +13,7 @@
             <div class="container">
                 {% if user.is_authenticated %}
                 <a href="{% url 'post_new' %}" class="top-menu">
-                    {% include './icons/clipboard-check.svg' %}
+                    <button type="submit" class="new-post-button">Add New Post</button>
                 </a>
                 {% endif %}
                 <h1><a href="/">Jack Middleton</a></h1>

@@ -75,3 +75,8 @@ h4 {
     color: #FFFFFF;
     background-color: #C25100;
 }
+
+.new-post-button {
+    font-size: 15px;
+    color: white;
+}
