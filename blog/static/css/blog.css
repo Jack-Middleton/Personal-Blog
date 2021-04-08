@@ -25,6 +25,7 @@ body {
     font-size: 36pt;
     text-decoration: none;
 }
+
 .page-header h3,
 .page-header h3 a,
 .page-header h3 a:visited,
@@ -94,3 +95,21 @@ h4 {
     color: black;
     font-family: Lobster;
 }
+
+/* navbar */
+
+.navbar{
+    display: inline-flex;
+}
+
+.navbar h4,
+.navbar-header h4 a,
+.navbar h4 a:visited,
+.navbar h4 a:active,
+.navbar h4 a:hover
+ {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
